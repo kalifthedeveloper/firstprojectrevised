@@ -1,6 +1,10 @@
 header {
     background-color: rgb(124, 99, 76);
   }
+
+main, h3 {
+    text-align: center;
+}
   
   header h1 {
     margin: 0;
@@ -56,7 +60,6 @@ a {
 
 body {
     background-color: rgb(255, 229, 204);
-    text-align: center;
 }
 
 
@@ -74,6 +77,9 @@ nav a {
 }
 
 ol {
-    text-align: center;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
